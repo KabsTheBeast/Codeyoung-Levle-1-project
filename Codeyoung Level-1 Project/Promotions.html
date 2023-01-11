@@ -1,0 +1,71 @@
+<DOCTYPE html>
+<html>
+
+    <head>
+<title> Shadow cinemas </title>
+<style>
+    h1{
+        color: red;
+        font-size: 100px;
+	  text-align: center;
+    }
+    h1::first-letter{
+        color: black;
+        font-size: 120px;
+        font-family: cursive;
+    }
+    .flex_item{
+        width: 100%;
+        height: 300px
+    }
+    #homepageimg{
+	  width: 250px;
+	  height: 250px;
+	  float: left;
+}
+    </style>
+    </head>
+
+    <body>
+        <script>
+            function bought(){
+                alert("Your transaction has been made")
+            }
+            </script>
+           <a href="index.html"> <img src="cinema-seats-cool.png" id="homepageimg"> </a>
+<h1> SHADOW cinemas </h1>
+<div id="flex_container">
+    <div class="flex_item">
+        <img src="https://www.techilife.com/wp-content/uploads/2021/12/coke-and-popcorn.png">
+        <p> This deal allows you to get a free tub of popcorn and a can of coco-cola everytime you come to watch a movie. Only for rps. 1000/per month</p>
+        <button onclick="bought()"> Buy Now </button>
+    </div>
+    <div class="flex_item">
+                <img src="data:image/jpeg;base64,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">
+                </div>
+        <p> This deal gets you free tickets every tuesday if you have bought more than 5 tickets on that day. Only for rps. 2000/per month</p>
+        <button onclick="bought()"> Buy Now </button>
+    </div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/800px-Eq_it-na_pizza-margherita_sep2005_sml.jpg">
+        <p> This deal gives you a free mini-pizza everytime your food bill goes over rps. 1000. Buy now for rps.500/per month</p>
+        <button onclick="bought()"> Buy Now </button>
+    <div class="flex_item">
+    </div>
+</div>
+    </body>
+
+</html>
+        <style>.flex_container{
+    display:flex;
+    flex-flow:row wrap;
+}
+.flex_item{
+    width:50%;
+    height:600px;
+}
+img{
+    padding:20px;
+    width:100%;height:250px;
+}</style>
+        <script></script>
+      </html>
